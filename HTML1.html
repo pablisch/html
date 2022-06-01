@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML1 page</title>
+        <link rel="stylesheet" href="HTML1.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon1.png">
+        <!--<style>body {background-color: powderblue;}h1 {color: blue; font-family: Arial;}p {color: magenta; font-family: fantasy;}</style><title>HTML 1 page</title>-->
+    </head>
+    <!-- <style>
+        table {
+            border: 1px soid purple;
+        }
+    </style> -->
+    <body>
+        <h1>A <i>horizontal</i> list.</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        <h1>An <i>unordered list</i> using the UL tag.</h1>
+        <ul style="list-style-type: none;">
+            <li>water</li>
+            <li>juice</li>
+            <li>tea</li>
+                <ul style="list-style-type: disc;">
+                    <li>nice tea</li>
+                    <li>rubbish tea</li>
+                </ul>
+        </ul>
+        <h1>An <i>ordered</i> list using the OL tag.</h1>
+        <ol>
+            <li>water</li>
+            <li>juice</li>
+            <li>tea</li>
+        </ol>
+        <h1>A <i>description</i> list using the DL tag.</h1>
+        <dl>
+            <dt>water</dt>
+            <dd> - wet drink</dd>
+            <dt>juice</dt>
+            <dd> - wet and tasty drink</dd>
+            <dt>tea</dt>
+            <dd> - wet, tasty and hot drink</dd>
+        </dl>
+        <br><br><br>
+        <table>
+            <tr>
+                <th>Item #</th><th>Item</th><th>Quantity</th>
+            </tr>
+            <tr>
+                <td>1</td><td>Nails</td><td>300</td>
+            </tr>
+            <tr>
+                <td>2</td><td>Saws</td><td>4</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Buckets</td><td>10</td>
+            </tr>
+        </table>
+        <caption>It's a table</caption>
+        <br>
+        <picture>
+            <source media="(min-width: 1800px)" srcset="images/kittenPirate.jpeg" alt="Pirate kitten">
+            <source media="(min-width: 600px)" srcset="images/kittenCowboy.jpg">
+            <img src="images/kittenTutu.png" style="width:215px;height:246px;">
+        </picture>
+        <img src="images/workplace.jpeg" alt="Workplace image" usemap="#workplacemap">
+        <map name="workplacemap">
+            <area shape="rect" coords="34,44,270,350" alt="laptop" href="https://www.w3schools.com/html/computer.htm" target="_blank">
+            <area shape="rect" coords="290,172,333,250" alt="phone" href="https://www.w3schools.com/html/phone.htm" target="_blank">
+            <area shape="circle" coords="337,300,44" alt="coffee" href="https://www.w3schools.com/html/coffee.htm" target="_blank">
+            <area shape="poly" coords="0,206,36,220,0,298" alt="note pad" href="https://www.google.com" target="_blank">
+        </map>
+        <!--
+        <img src="https://www.w3schools.com/css/img_chania.jpg" alt="Cute street 1" style="width:230px;height:173px;">
+        <a href="https://www.google.com" target="_blank"><img src="cuteStreet.jpeg" alt="Cute street 2" style="width:230px;height:173px;"></a>
+        <a href="https://www.google.com" target="_blank"><img src="images/cuteStreet.jpeg" alt="Cute street 3" style="width:230px;height:173px;"></a>
+        <a href="https://www.google.com" target="_blank"><img src="file:///Users/pablo/Documents/VSCode/cuteStreet.jpeg" alt="Cute street 4" style="width:230px;height:173px;"></a>
+        <a href="https://www.google.com" target="_blank"><img src="/Users/pablo/Documents/VSCode/cuteStreet.jpeg" alt="Cute street 5" style="width:230px;height:173px;"></a>
+        <br>
+        <img src="https://c.tenor.com/B4IqEbL4_xYAAAAC/nyan-cat-rainbow.gif" alt="Nyan cat 1" style="width:200px;height:200px;">
+        <a href="https://www.google.com" target="_blank">
+            <img src="images/nyan-cat-rainbow.gif" alt="Nyan cat 1" style="width:200px;height:200px;">
+        </a>
+        <br><br>
+        <a href="#HW">Jump to <i>'Hello World!'</i></a>
+        <br><br>
+        <a href="#rtl">Jump to <i>'The backwards bit'</i></a>
+        <br><br>
+        <img src="https://c.tenor.com/B4IqEbL4_xYAAAAC/nyan-cat-rainbow.gif" alt="Nyan cat 1" style="float:left;width:200px;height:200px;">
+        <a href="#1stHeading">Jump to <i>'The first heading'</i></a>
+        <img src="https://c.tenor.com/B4IqEbL4_xYAAAAC/nyan-cat-rainbow.gif" alt="Nyan cat 1" style="float:right;width:200px;height:200px;">
+        <br><br>
+        <button onclick="document.location='HTML2.html'">Google cat</button>
+        <P style="border: 0px solid white ; font-family: arial; padding: 0px; color: white;"><a href="HTML2.html" target="_blank">Dummy page</a></P>
+        <p><a href="https://www.google.com/" target="_blank"> Go to Google</a></p>
+        <h1 id="1stHeading">Heading style dictated by internal CSS</h1>
+        -->
+        <P>Paragraph style dictated by internal CSS</P>
+        <h1 style="border: 2px solid RGBA(255,165,0,1);background-color: RGBA(0,165,255,0.3);color: RGBA(255,165,0,0.2);">
+            Exploring RGBA colours.</h1>
+        <h1 style="border: 2px solid #000000;background-color: #ffffff;color: #3cb371;">
+            Exploring HEX colours which have no parentheses and use a hash symbol.</h1>
+        <h1 style="border: 2px solid hsla(0, 77%, 44%, 1);background-color: hsla(120,50%,50%,0.3);color: hsla(224, 67%, 58%, 0.895);">
+            Exploring HSLA colours - hue, sat, light and alpha.</h1>
+        <!-- 
+        <h1 style="background-color:rgb(255, 99, 71);">...</h1>
+        <h1 style="background-color:#ff6347;">...</h1>
+        <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+        <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+        <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+        <h1 style="border:2px solid Tomato;">Hello World</h1>
+        <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+        <p style="border:2px solid Violet;">Hello World</p> -->
+        <p style="border:2px solid tomato ;background-color:aqua ;color:orange">
+        This line has an aqua background, a tomato colour border and an orange text colour.</p>
+        <p style="border: 10px solid red ;">There is a <!-- great --> word missing from this paragraph.</p>
+        <!-- This will never be seen on the web page as it is a comment -->
+        <!-- <p>This paragraph should not be seen by anyone!</p> -->
+        <bdo dir="rtl" id="rtl">This text will be written from right to left</bdo><br>
+        <bdo dir="ltr">Whereas this text will be from left to right</bdo>
+        <!-- <p><q>It was a bright cold day in April, and the clocks were striking thirteen.</q><figcaption>is the first sentence in <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a>
+        </cite> by George Orwell (Part 1, Chapter 1).</figcaption></p>
+        <figcaption>First sentence in <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a>
+        </cite> by George Orwell (Part 1, Chapter 1).</figcaption>
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+        <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <p><abbr title="hypertext markup language">HTML</abbr> is used to create web pages.</p>
+        <p>Here is a quote from W3School's website:</p>
+        <blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">
+        <i>The HTML [blockquote] element defines a section that is quoted from another source.</i> 
+        </blockquote>
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+        <p>W3School states that, <q>The HTML [blockquote] element defines a section that is quoted from another source.</q></p>
+        <p><b>Bold</b></p>
+        <p><strong>Strong for important text</strong></p>
+        <p><i>Italic</i></p>
+        <p><em>Emphasised text</em></p>
+        <p><mark>Marked text</mark></p>
+        <p><small>Smaller text</small></p>
+        <p><del>Deleted text</del></p>
+        <p><ins>Inserted text</ins></p>
+        <p><sub>Subscript text</sub></p>
+        <p><sup>Superscript text</sup></p> -->
+        <p><b>Bold</b>
+        <strong>Strong for important text</strong>
+        <i>Italic</i>
+        <em>Emphasised text</em>
+        <mark>Marked text</mark>
+        <small>Smaller text</small>
+        <del>Deleted text</del>
+        <ins>Inserted text</ins>
+        <sub>Subscript text</sub>
+        <sup>Superscript text</sup></p>
+        <p></p>
+        <!-- <h1 style="background-color:lightgrey;color:tomato;font-family:monospace;font-size:800%;">Heading 1</h1>
+        <h2 style="background-color:tomato;color: lightgray;">Heading 2</h2>
+        <h3 title="Aha!" style="background-color:orange;text-align: right;">Heading 3</h3>
+        <hr>
+        <h4 style="font-size:10%;text-align:center;">Heading 4</h4>
+        <h5 style="background-color:tomato;color: lightgray;">Heading 5</h5>
+        <h6 style="background-color:tomato;color: lightgray;">Heading 6</h6>
+        <br>
+        <p title="The first paragraph is always the best one!" style="font-size:500%;">Paragraph 1</p>
+        <p style="color:red;">Paragraph 2 is red</p>
+        <img src="https://www.burgesspetcare.com/wp-content/uploads/2019/11/Block-Images-10.png" 
+        alt="Missing kitten!" width="104" height="104">
+        <a href="https://www.w3schools.com">This is a <b>link</b> to w3schools website</a> -->
+        <a href="https://www.google.com" target="_blank">
+            <img src="https://www.burgesspetcare.com/wp-content/uploads/2019/11/Block-Images-10.png" 
+            alt="Missing kitten!" width="300" height="300"></a>
+        <!-- <br>
+        <img src="Block-Images-10.webp" alt="missing kitten from this page" width="200" height="200">
+        <pre>Hello
+
+Hello
+
+Goodbye
+
+
+
+
+    ...Goodbye
+        </pre>
+        <p>
+            This paragraph
+            contains a lot of lines
+            in the source code,
+            but the browser
+            ignores it.
+            </p>
+            
+            <p>
+            This paragraph
+            contains         a lot of spaces
+            in the source         code,
+            but the        browser
+            ignores it.
+            </p> -->
+            <p style="font-size: 200% ;" id="HW">Hello World!</p>
+    </body>
+</html>

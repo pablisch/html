@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML6</title>
+        <link rel="stylesheet" href="CSS6.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon6">    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, iniital-scale=1.0">
+    </head>
+
+    <body>
+        <p>Open finder by typing <kbd>opt + n</kbd>.</p>
+        <br>
+        <div class="left">
+            <p style="font-size: 3vw;">Left menu</p>
+        </div>
+
+        <div class="main">
+            <p style="font-size: 3vw;">Main menu</p>
+        </div>
+
+        <div class="right">
+            <p style="font-size: 3vw;">Right menu</p>
+        </div>
+
+        <br>
+        <p style="font-size: 10vw; text-align: center;">Hello World!</p>
+        <p style="font-size: 5vw; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <!-- <img src="images/nyan-cat-rainbow.gif" style="max-width: 100%; height: auto;"> -->
+        <!-- <img src="images/nyan-cat-rainbow.gif" style="width: 100%;"> WITHOUT THE 'MAX'
+            AN IMAGE CAN SCALE UP FAR BEYOND ITS ORIGINAL SIZE -->
+        <br>
+        <picture>
+            <source srcset="images/nyan.gif" media="(max-width: 600px)">
+            <source srcset="images/kittenCowboy.jpg" media="(max-width: 800px)">
+            <source srcset="images/cuteStreet.jpeg" media="(max-width: 1000px)">
+            <img src="images/unicorn.jpeg" alt="unicorn"> 
+            <!-- The last option is the default whenever the largest max-width is exceeded, i.e. whenever
+            the screen width is larger than 1000px in this example, the unicorn image will show. -->
+        </picture>
+
+    </body>
+
+</html>

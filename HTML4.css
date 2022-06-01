@@ -1,0 +1,48 @@
+body {
+    background-color: powderblue; background-image: url('Block-Images-10.webp'); background-attachment: fixed; background-size: cover;
+  }
+  h1 {
+    color: rgb(51, 97, 43); font-family: monospace; font-size: 200%; background-image: url('Block-Images-10.webp');
+  }
+  p {
+    color: rgb(178, 80, 11); font-family: fantasy; font-size: 75%; border: 2px solid red; padding: 20px; margin: 50px; background-image: url('images/nyan-cat-rainbow.gif');
+  }
+  a:link, a:visited {
+    color: green;
+    background-color: orange;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: red;
+  }
+  table {
+    width:600px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: orange;
+    border-radius: 25px;
+    padding: 5px;
+  }
+  th, td {
+    padding: 10px;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 20px;
+  }
+  th:nth-child(1) {
+    width: 15%;
+  }
+  th:nth-child(3) {
+    width: 15%;
+  }
+  th:nth-child(2), td:nth-child(2) {
+    text-align: left;
+    color: rgb(2, 2, 33);
+  }
+  tr:hover {
+    background-color: aquamarine;
+  }
+
